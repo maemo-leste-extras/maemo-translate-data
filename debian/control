@@ -1,0 +1,95 @@
+Source: maemo-translate-data
+Priority: optional
+Section: localization
+Maintainer: Merlijn Wajer <merlijn@wizzup.org>
+Build-Depends:
+ debhelper-compat (=12),
+Standards-Version: 4.3.0
+Vcs-Git: https://github.com/maemo-leste/hildon-theme-alpha
+Vcs-Browser: https://github.com/maemo-leste/hildon-theme-alpha
+
+Package: maemo-translate-data-all
+Architecture: all
+Depends: ${misc:Depends}, maemo-translate-data-bg, maemo-translate-data-cs, maemo-translate-data-de, maemo-translate-data-es, maemo-translate-data-et, maemo-translate-data-fa, maemo-translate-data-fr, maemo-translate-data-is, maemo-translate-data-it, maemo-translate-data-nb, maemo-translate-data-nl, maemo-translate-data-nn, maemo-translate-data-pl, maemo-translate-data-pt, maemo-translate-data-ru, maemo-translate-data-uk
+Description: All available language packs for maemo-translate
+
+Package: maemo-translate-data-bg
+Architecture: all
+Depends: ${misc:Depends}
+Description: Maemo Translate models for bg language
+    
+Package: maemo-translate-data-cs
+Architecture: all
+Depends: ${misc:Depends}
+Description: Maemo Translate models for cs language
+    
+Package: maemo-translate-data-de
+Architecture: all
+Depends: ${misc:Depends}
+Description: Maemo Translate models for de language
+    
+Package: maemo-translate-data-es
+Architecture: all
+Depends: ${misc:Depends}
+Description: Maemo Translate models for es language
+    
+Package: maemo-translate-data-et
+Architecture: all
+Depends: ${misc:Depends}
+Description: Maemo Translate models for et language
+    
+Package: maemo-translate-data-fa
+Architecture: all
+Depends: ${misc:Depends}
+Description: Maemo Translate models for fa language
+    
+Package: maemo-translate-data-fr
+Architecture: all
+Depends: ${misc:Depends}
+Description: Maemo Translate models for fr language
+    
+Package: maemo-translate-data-is
+Architecture: all
+Depends: ${misc:Depends}
+Description: Maemo Translate models for is language
+    
+Package: maemo-translate-data-it
+Architecture: all
+Depends: ${misc:Depends}
+Description: Maemo Translate models for it language
+    
+Package: maemo-translate-data-nb
+Architecture: all
+Depends: ${misc:Depends}
+Description: Maemo Translate models for nb language
+    
+Package: maemo-translate-data-nl
+Architecture: all
+Depends: ${misc:Depends}
+Description: Maemo Translate models for nl language
+    
+Package: maemo-translate-data-nn
+Architecture: all
+Depends: ${misc:Depends}
+Description: Maemo Translate models for nn language
+    
+Package: maemo-translate-data-pl
+Architecture: all
+Depends: ${misc:Depends}
+Description: Maemo Translate models for pl language
+    
+Package: maemo-translate-data-pt
+Architecture: all
+Depends: ${misc:Depends}
+Description: Maemo Translate models for pt language
+    
+Package: maemo-translate-data-ru
+Architecture: all
+Depends: ${misc:Depends}
+Description: Maemo Translate models for ru language
+    
+Package: maemo-translate-data-uk
+Architecture: all
+Depends: ${misc:Depends}
+Description: Maemo Translate models for uk language
+    
