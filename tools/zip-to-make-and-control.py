@@ -25,7 +25,7 @@ def create_install_files(model_names):
     for model_name in model_names:
         filename = 'maemo-translate-data-%s.install' % model_name
         fp = open(os.path.join('debian', filename), 'w+')
-        fp.write('/usr/share/kotki/%s/*\n' % model_name)
+        fp.write('usr/share/kotki/%s/*\n' % model_name)
         fp.close()
 
 
