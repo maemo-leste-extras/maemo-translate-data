@@ -10,86 +10,120 @@ Vcs-Browser: https://github.com/maemo-leste/hildon-theme-alpha
 
 Package: maemo-translate-data-all
 Architecture: all
+Section: user/utilities
 Depends: ${misc:Depends}, maemo-translate-data-bg, maemo-translate-data-cs, maemo-translate-data-de, maemo-translate-data-es, maemo-translate-data-et, maemo-translate-data-fa, maemo-translate-data-fr, maemo-translate-data-is, maemo-translate-data-it, maemo-translate-data-nb, maemo-translate-data-nl, maemo-translate-data-nn, maemo-translate-data-pl, maemo-translate-data-pt, maemo-translate-data-ru, maemo-translate-data-uk
 Description: All available language packs for maemo-translate
+XB-Maemo-Display-Name: Maemo Translate data for all languages
 
 Package: maemo-translate-data-bg
 Architecture: all
+Section: user/utilities
 Depends: ${misc:Depends}
 Description: Maemo Translate models for bg language
+XB-Maemo-Display-Name: Maemo Translate data for bg
     
 Package: maemo-translate-data-cs
 Architecture: all
+Section: user/utilities
 Depends: ${misc:Depends}
 Description: Maemo Translate models for cs language
+XB-Maemo-Display-Name: Maemo Translate data for cs
     
 Package: maemo-translate-data-de
 Architecture: all
+Section: user/utilities
 Depends: ${misc:Depends}
 Description: Maemo Translate models for de language
+XB-Maemo-Display-Name: Maemo Translate data for de
     
 Package: maemo-translate-data-es
 Architecture: all
+Section: user/utilities
 Depends: ${misc:Depends}
 Description: Maemo Translate models for es language
+XB-Maemo-Display-Name: Maemo Translate data for es
     
 Package: maemo-translate-data-et
 Architecture: all
+Section: user/utilities
 Depends: ${misc:Depends}
 Description: Maemo Translate models for et language
+XB-Maemo-Display-Name: Maemo Translate data for et
     
 Package: maemo-translate-data-fa
 Architecture: all
+Section: user/utilities
 Depends: ${misc:Depends}
 Description: Maemo Translate models for fa language
+XB-Maemo-Display-Name: Maemo Translate data for fa
     
 Package: maemo-translate-data-fr
 Architecture: all
+Section: user/utilities
 Depends: ${misc:Depends}
 Description: Maemo Translate models for fr language
+XB-Maemo-Display-Name: Maemo Translate data for fr
     
 Package: maemo-translate-data-is
 Architecture: all
+Section: user/utilities
 Depends: ${misc:Depends}
 Description: Maemo Translate models for is language
+XB-Maemo-Display-Name: Maemo Translate data for is
     
 Package: maemo-translate-data-it
 Architecture: all
+Section: user/utilities
 Depends: ${misc:Depends}
 Description: Maemo Translate models for it language
+XB-Maemo-Display-Name: Maemo Translate data for it
     
 Package: maemo-translate-data-nb
 Architecture: all
+Section: user/utilities
 Depends: ${misc:Depends}
 Description: Maemo Translate models for nb language
+XB-Maemo-Display-Name: Maemo Translate data for nb
     
 Package: maemo-translate-data-nl
 Architecture: all
+Section: user/utilities
 Depends: ${misc:Depends}
 Description: Maemo Translate models for nl language
+XB-Maemo-Display-Name: Maemo Translate data for nl
     
 Package: maemo-translate-data-nn
 Architecture: all
+Section: user/utilities
 Depends: ${misc:Depends}
 Description: Maemo Translate models for nn language
+XB-Maemo-Display-Name: Maemo Translate data for nn
     
 Package: maemo-translate-data-pl
 Architecture: all
+Section: user/utilities
 Depends: ${misc:Depends}
 Description: Maemo Translate models for pl language
+XB-Maemo-Display-Name: Maemo Translate data for pl
     
 Package: maemo-translate-data-pt
 Architecture: all
+Section: user/utilities
 Depends: ${misc:Depends}
 Description: Maemo Translate models for pt language
+XB-Maemo-Display-Name: Maemo Translate data for pt
     
 Package: maemo-translate-data-ru
 Architecture: all
+Section: user/utilities
 Depends: ${misc:Depends}
 Description: Maemo Translate models for ru language
+XB-Maemo-Display-Name: Maemo Translate data for ru
     
 Package: maemo-translate-data-uk
 Architecture: all
+Section: user/utilities
 Depends: ${misc:Depends}
 Description: Maemo Translate models for uk language
+XB-Maemo-Display-Name: Maemo Translate data for uk
     
