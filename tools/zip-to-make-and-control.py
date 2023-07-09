@@ -25,7 +25,7 @@ def create_install_files(model_names):
     for model_name in model_names:
         filename = 'maemo-translate-data-%s.install' % model_name
         fp = open(os.path.join('debian', filename), 'w+')
-        fp.write('/usr/share/kotki/%s/*\n' % model_name)
+        fp.write('usr/share/kotki/%s/*\n' % model_name)
         fp.close()
 
 
@@ -43,50 +43,25 @@ Vcs-Browser: https://github.com/maemo-leste/hildon-theme-alpha
 
 Package: maemo-translate-data-all
 Architecture: all
+Section: user/utilities
 Depends: ${misc:Depends}, %s
 Description: All available language packs for maemo-translate
+XB-Maemo-Display-Name: Maemo Translate data for all languages
 ''' % deps
 
     for model_name in sorted(model_names):
         entry = '''
 Package: maemo-translate-data-%s
 Architecture: all
+Section: user/utilities
 Depends: ${misc:Depends}
 Description: Maemo Translate models for %s language
-    ''' % (model_name, model_name)
+XB-Maemo-Display-Name: Maemo Translate data for %s
+    ''' % (model_name, model_name, model_name)
         s += entry
 
     return s
 
-def create_debian_dotinstall(model_names):
-    deps = ', '. join(['maemo-translate-%s' % k for k in sorted(model_names)])
-
-    s = '''Source: maemo-translate-data
-Priority: optional
-Section: localization
-Maintainer: Merlijn Wajer <merlijn@wizzup.org>
-Build-Depends:
- debhelper-compat (=12),
-Standards-Version: 4.3.0
-Vcs-Git: https://github.com/maemo-leste/hildon-theme-alpha
-Vcs-Browser: https://github.com/maemo-leste/hildon-theme-alpha
-
-Package: maemo-translate-data-all
-Architecture: all
-Depends: ${misc:Depends}, %s
-Description: All available language packs for maemo-translate
-''' % deps
-
-    for model_name in sorted(model_names):
-        entry = '''
-Package: maemo-translate-data-%s
-Architecture: all
-Depends: ${misc:Depends}
-Description: Maemo Translate models for %s language
-    ''' % (model_name, model_name)
-        s += entry
-
-    return s
 
 def extract_zip(zf, model_names, to_install, registry):
     files = []
