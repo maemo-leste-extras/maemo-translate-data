@@ -1,3 +1,11 @@
+maemo-translate-data (0.4.0) unstable; urgency=medium
+
+  * Start using firefox-translations models
+    (https://github.com/mozilla/firefox-translations-models/), version 2024-08-07
+  * Add additional languages
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Fri, 09 Aug 2024 21:20:15 +0200
+
 maemo-translate-data (0.3.3.1) unstable; urgency=medium
 
   * Add extra maemo control section
