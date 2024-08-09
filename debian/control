@@ -11,7 +11,7 @@ Vcs-Browser: https://github.com/maemo-leste/hildon-theme-alpha
 Package: maemo-translate-data-all
 Architecture: all
 Section: user/utilities
-Depends: ${misc:Depends}, maemo-translate-data-bg, maemo-translate-data-cs, maemo-translate-data-de, maemo-translate-data-es, maemo-translate-data-et, maemo-translate-data-fa, maemo-translate-data-fr, maemo-translate-data-is, maemo-translate-data-it, maemo-translate-data-nb, maemo-translate-data-nl, maemo-translate-data-nn, maemo-translate-data-pl, maemo-translate-data-pt, maemo-translate-data-ru, maemo-translate-data-uk
+Depends: ${misc:Depends}, maemo-translate-data-bg, maemo-translate-data-cs, maemo-translate-data-da, maemo-translate-data-de, maemo-translate-data-el, maemo-translate-data-es, maemo-translate-data-et, maemo-translate-data-fi, maemo-translate-data-fr, maemo-translate-data-hr, maemo-translate-data-hu, maemo-translate-data-id, maemo-translate-data-it, maemo-translate-data-lt, maemo-translate-data-lv, maemo-translate-data-nl, maemo-translate-data-pl, maemo-translate-data-pt, maemo-translate-data-ro, maemo-translate-data-ru, maemo-translate-data-sk, maemo-translate-data-sl, maemo-translate-data-sr, maemo-translate-data-tr, maemo-translate-data-uk, maemo-translate-data-vi
 Description: All available language packs for maemo-translate
 XB-Maemo-Display-Name: Maemo Translate data for all languages
 
@@ -29,12 +29,26 @@ Depends: ${misc:Depends}
 Description: Maemo Translate models for cs language
 XB-Maemo-Display-Name: Maemo Translate data for cs
     
+Package: maemo-translate-data-da
+Architecture: all
+Section: user/utilities
+Depends: ${misc:Depends}
+Description: Maemo Translate models for da language
+XB-Maemo-Display-Name: Maemo Translate data for da
+    
 Package: maemo-translate-data-de
 Architecture: all
 Section: user/utilities
 Depends: ${misc:Depends}
 Description: Maemo Translate models for de language
 XB-Maemo-Display-Name: Maemo Translate data for de
+    
+Package: maemo-translate-data-el
+Architecture: all
+Section: user/utilities
+Depends: ${misc:Depends}
+Description: Maemo Translate models for el language
+XB-Maemo-Display-Name: Maemo Translate data for el
     
 Package: maemo-translate-data-es
 Architecture: all
@@ -50,12 +64,12 @@ Depends: ${misc:Depends}
 Description: Maemo Translate models for et language
 XB-Maemo-Display-Name: Maemo Translate data for et
     
-Package: maemo-translate-data-fa
+Package: maemo-translate-data-fi
 Architecture: all
 Section: user/utilities
 Depends: ${misc:Depends}
-Description: Maemo Translate models for fa language
-XB-Maemo-Display-Name: Maemo Translate data for fa
+Description: Maemo Translate models for fi language
+XB-Maemo-Display-Name: Maemo Translate data for fi
     
 Package: maemo-translate-data-fr
 Architecture: all
@@ -64,12 +78,26 @@ Depends: ${misc:Depends}
 Description: Maemo Translate models for fr language
 XB-Maemo-Display-Name: Maemo Translate data for fr
     
-Package: maemo-translate-data-is
+Package: maemo-translate-data-hr
 Architecture: all
 Section: user/utilities
 Depends: ${misc:Depends}
-Description: Maemo Translate models for is language
-XB-Maemo-Display-Name: Maemo Translate data for is
+Description: Maemo Translate models for hr language
+XB-Maemo-Display-Name: Maemo Translate data for hr
+    
+Package: maemo-translate-data-hu
+Architecture: all
+Section: user/utilities
+Depends: ${misc:Depends}
+Description: Maemo Translate models for hu language
+XB-Maemo-Display-Name: Maemo Translate data for hu
+    
+Package: maemo-translate-data-id
+Architecture: all
+Section: user/utilities
+Depends: ${misc:Depends}
+Description: Maemo Translate models for id language
+XB-Maemo-Display-Name: Maemo Translate data for id
     
 Package: maemo-translate-data-it
 Architecture: all
@@ -78,12 +106,19 @@ Depends: ${misc:Depends}
 Description: Maemo Translate models for it language
 XB-Maemo-Display-Name: Maemo Translate data for it
     
-Package: maemo-translate-data-nb
+Package: maemo-translate-data-lt
 Architecture: all
 Section: user/utilities
 Depends: ${misc:Depends}
-Description: Maemo Translate models for nb language
-XB-Maemo-Display-Name: Maemo Translate data for nb
+Description: Maemo Translate models for lt language
+XB-Maemo-Display-Name: Maemo Translate data for lt
+    
+Package: maemo-translate-data-lv
+Architecture: all
+Section: user/utilities
+Depends: ${misc:Depends}
+Description: Maemo Translate models for lv language
+XB-Maemo-Display-Name: Maemo Translate data for lv
     
 Package: maemo-translate-data-nl
 Architecture: all
@@ -91,13 +126,6 @@ Section: user/utilities
 Depends: ${misc:Depends}
 Description: Maemo Translate models for nl language
 XB-Maemo-Display-Name: Maemo Translate data for nl
-    
-Package: maemo-translate-data-nn
-Architecture: all
-Section: user/utilities
-Depends: ${misc:Depends}
-Description: Maemo Translate models for nn language
-XB-Maemo-Display-Name: Maemo Translate data for nn
     
 Package: maemo-translate-data-pl
 Architecture: all
@@ -113,6 +141,13 @@ Depends: ${misc:Depends}
 Description: Maemo Translate models for pt language
 XB-Maemo-Display-Name: Maemo Translate data for pt
     
+Package: maemo-translate-data-ro
+Architecture: all
+Section: user/utilities
+Depends: ${misc:Depends}
+Description: Maemo Translate models for ro language
+XB-Maemo-Display-Name: Maemo Translate data for ro
+    
 Package: maemo-translate-data-ru
 Architecture: all
 Section: user/utilities
@@ -120,10 +155,45 @@ Depends: ${misc:Depends}
 Description: Maemo Translate models for ru language
 XB-Maemo-Display-Name: Maemo Translate data for ru
     
+Package: maemo-translate-data-sk
+Architecture: all
+Section: user/utilities
+Depends: ${misc:Depends}
+Description: Maemo Translate models for sk language
+XB-Maemo-Display-Name: Maemo Translate data for sk
+    
+Package: maemo-translate-data-sl
+Architecture: all
+Section: user/utilities
+Depends: ${misc:Depends}
+Description: Maemo Translate models for sl language
+XB-Maemo-Display-Name: Maemo Translate data for sl
+    
+Package: maemo-translate-data-sr
+Architecture: all
+Section: user/utilities
+Depends: ${misc:Depends}
+Description: Maemo Translate models for sr language
+XB-Maemo-Display-Name: Maemo Translate data for sr
+    
+Package: maemo-translate-data-tr
+Architecture: all
+Section: user/utilities
+Depends: ${misc:Depends}
+Description: Maemo Translate models for tr language
+XB-Maemo-Display-Name: Maemo Translate data for tr
+    
 Package: maemo-translate-data-uk
 Architecture: all
 Section: user/utilities
 Depends: ${misc:Depends}
 Description: Maemo Translate models for uk language
 XB-Maemo-Display-Name: Maemo Translate data for uk
+    
+Package: maemo-translate-data-vi
+Architecture: all
+Section: user/utilities
+Depends: ${misc:Depends}
+Description: Maemo Translate models for vi language
+XB-Maemo-Display-Name: Maemo Translate data for vi
     

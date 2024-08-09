@@ -1,0 +1,1 @@
+{"iden": {"lex": {"API": 1, "modelType": "prod", "name": "lex.50.50.iden.s2t.bin", "size": 6182512, "version": 1}, "model": {"API": 1, "modelType": "prod", "name": "model.iden.intgemm.alphas.bin", "size": 17140899, "version": 1}, "vocab": {"API": 1, "modelType": "prod", "name": "vocab.iden.spm", "size": 920621, "version": 1}}}

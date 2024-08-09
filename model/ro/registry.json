@@ -1,0 +1,1 @@
+{"roen": {"lex": {"API": 1, "modelType": "prod", "name": "lex.50.50.roen.s2t.bin", "size": 6182512, "version": 1}, "model": {"API": 1, "modelType": "prod", "name": "model.roen.intgemm.alphas.bin", "size": 17140899, "version": 1}, "vocab": {"API": 1, "modelType": "prod", "name": "vocab.roen.spm", "size": 920621, "version": 1}}}
