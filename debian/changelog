@@ -1,3 +1,9 @@
+maemo-translate-data (0.4.1) unstable; urgency=medium
+
+  * model/bg: Fix nonsensical model output. Use the previous language model (version 0.3.3).
+
+ -- Sander <code@kroket.io>  Thu, 23 Sep 2025 21:20:15 +0200
+
 maemo-translate-data (0.4.0) unstable; urgency=medium
 
   * Start using firefox-translations models
